@@ -1,0 +1,77 @@
+# ========================================
+# Jupyter & Google Colab
+# ========================================
+.ipynb_checkpoints/
+*.ipynb~  # Archivos temporales de Jupyter
+
+# ========================================
+# Entornos virtuales de Python
+# ========================================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ========================================
+# Archivos temporales y de log
+# ========================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*~
+
+# ========================================
+# Archivos de configuración y variables locales
+# ========================================
+*.env
+.env.*
+
+# ========================================
+# Cachés de Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================================
+# Configuración de IDEs/editores
+# ========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ========================================
+# Archivos del sistema operativo
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Node.js (por si usan JS para dashboards, etc.)
+# ========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================================
+# Datos sensibles o resultados pesados
+# ========================================
+*.sqlite3
+*.db
+*.h5
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# (opcional) carpeta outputs para guardar resultados no versionados
+outputs/
